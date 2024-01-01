@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/styles.css">
+			<link rel="icon" type="image/png" href="img/favicon.png">
+		</head>
+		<body>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+				<a class="navbar-brand portfolio-logo" href="#">P.</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ml-auto">
+						<a class="nav-link active text-white" href="/">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link text-white" href="/about">About me</a>
+						<a class="nav-link text-white" href="/portfolio">Portfolio</a>
+						<a class="nav-link text-white" href="/blog">Blog</a>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:pavanigajula38@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/Pavani38">github.com/Pavani38</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
